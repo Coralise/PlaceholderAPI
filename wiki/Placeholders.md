@@ -176,6 +176,7 @@ If the command itself isn't there and `NO DOWNLOAD COMMAND` instead is shown, th
     - **[CraftConomy](#craftconomy)**
     - **[CraftingStore.net](#craftingstorenet)**
     - **[CursedVIP](#cursedvip)**
+    - **[Custom Bans Plus](#custom-bans-plus)**
     - **[Custom Items](#custom-items)**
 
   - ### **D**
@@ -2242,6 +2243,37 @@ Please see [this discussion][list] for a list of all expansions officially maint
   %cursedvip_active_vip%
   %cursedvip_days_left%
   %cursedvip_initial_date%
+  ```
+
+----
+
+- ### **[Custom Bans Plus](https://www.spigotmc.org/resources/89075/)**
+  > NO DOWNLOAD COMMAND
+  
+  You may visit the official guide [here](https://github.com/Coralise/CustomBansPlus/wiki/PlaceholderAPI) for more in-depth explanations.
+  
+  ```
+  %cbp_ban_player_isbanned%
+  %cbp_ban_player_type%
+  %cbp_ban_player_duration%
+  %cbp_ban_player_staff%
+  %cbp_ban_player_reason%
+  %cbp_ban_player_unbandate%
+  %cbp_ban_player_date%
+  %cbp_ban_player_timeleft%
+  %cbp_mute_player_ismuted%
+  %cbp_mute_player_type%
+  %cbp_mute_player_duration%
+  %cbp_mute_player_staff%
+  %cbp_mute_player_reason%
+  %cbp_mute_player_unmutedate%
+  %cbp_mute_player_date%
+  %cbp_mute_player_timeleft%
+  %cbp_kick_player_waskicked%
+  %cbp_kick_player_staff%
+  %cbp_kick_player_reason%
+  %cbp_size_bans%
+  %cbp_size_mutes%
   ```
 
 ----
