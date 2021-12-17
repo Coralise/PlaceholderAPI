@@ -5009,6 +5009,9 @@ All placeholders are listed here: https://wiki.staffplusplus.org/integrations/pa
   
   ```
   %superbvote_votes%
+  %superbvote_has_voted%
+  %superbvote_top_voter_name_<index>%
+  %superbvote_top_voter_votes_<index>%
   ```
 
 ----
@@ -5165,7 +5168,7 @@ All placeholders are listed here: https://wiki.staffplusplus.org/integrations/pa
 
 ----
 
-- ### **[TokenEnchant](https://www.spigotmc.org/resources/2287/)**
+- ### **[TokenEnchant](https://polymart.org/resource/155)**
   > /papi ecloud download TokenEnchant
 
   If you add ```_long``` to the cost related placeholder, it will returne a number without comma/decimal point.
@@ -5182,6 +5185,7 @@ All placeholders are listed here: https://wiki.staffplusplus.org/integrations/pa
   %tokenenchant_<enchantment>_fullcostmax% : cost to enchant the max level from 0 level
   %tokenenchant_<enchantment>_fullcost_<X>% : cost to enchant the <X> level from 0 level
   %tokenenchant_<enchantment>_max%
+  %tokenenchant_<enchantment>_playermax% : the max enchant level for the player - based on the permission.
   %tokenenchant_<enchantment>_description% 
   %tokenenchant_<enchantment>_version%
   %tokenenchant_<enchantment>_fullrefund%
@@ -5482,12 +5486,7 @@ All placeholders are listed here: https://wiki.staffplusplus.org/integrations/pa
 - ### **[VoteParty](https://www.spigotmc.org/resources/987/)**
   > NO DOWNLOAD COMMAND
   
-  ```
-  %voteparty_votes_recorded%
-  %voteparty_votes_required_party%
-  %voteparty_votes_required_total%
-  %voteparty_player_votes%
-  ```
+  You can find an up-to-date list of placeholders on the [VoteParty wiki](https://wiki.helpch.at/glares-plugins/voteparty/placeholders).
 
 ----
 
